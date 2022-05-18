@@ -85,20 +85,20 @@ Provide more context by answering these questions:
 
 Include details about your configuration and environment:
 
-* **Which version of BoxBilling are you using?** You can get the exact version by running `https://<your domain>/api/guest/system/version` in your browser.
-* **What's the name and version of the server OS you're BoxBilling installation is running**?
+* **Which version of FOSSBilling are you using?** You can get the exact version by running `https://<your domain>/api/guest/system/version` in your browser.
+* **What's the name and version of the server OS you're FOSSBilling installation is running**?
 * **What's the PHP version your server is using**?
 * **What's the MySQL version your server is using**?
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for BoxBilling, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
+This section guides you through submitting an enhancement suggestion for FOSSBilling, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
 Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). 
 
 ### Your First Code Contribution
 
-Unsure where to begin contributing to BoxBilling? You can start by looking through these `beginner` and `help-wanted` issues:
+Unsure where to begin contributing to FOSSBilling? You can start by looking through these `beginner` and `help-wanted` issues:
 
 * [Beginner issues][beginner] - issues which should only require a few lines of code, and a test or two.
 * [Help wanted issues][help-wanted] - issues which should be a bit more involved than `beginner` issues.
@@ -107,16 +107,16 @@ Both issue lists are sorted by total number of comments. While not perfect, numb
 
 #### Local development
 
-BoxBilling and all packages can be developed localy. Instructions on how to do this are provided in [Readme](README.md):
+FOSSBilling and all packages can be developed localy. Instructions on how to do this are provided in [Readme](README.md):
 
 ### Pull Requests
 
 The process described here has several goals:
 
-- Maintain BoxBilling's quality
+- Maintain FOSSBilling's quality
 - Fix problems that are important to users
-- Engage the community in working toward the best possible BoxBilling
-- Enable a sustainable system for BoxBilling's maintainers to review contributions
+- Engage the community in working toward the best possible FOSSBilling
+- Enable a sustainable system for FOSSBilling's maintainers to review contributions
 
 Please follow these steps to have your contribution considered by the maintainers:
 
@@ -154,11 +154,11 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ### PHP Styleguide
 
-All PHP must adhere to [PSR-2](https://www.php-fig.org/psr/psr-2/).
+All PHP must adhere to [PSR-12](https://www.php-fig.org/psr/psr-12/).
 
 ### Documentation Styleguide
 
-[Documentation repository can be found here](https://github.com/boxbilling/docs)
+[Documentation repository can be found here](https://github.com/FOSSBilling/docs)
 
 * Use [Read The Docs](Read The Docs) style guide.
 * Use [Markdown](https://daringfireball.net/projects/markdown).
