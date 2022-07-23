@@ -1,8 +1,10 @@
 <h1 align="center">
-  <br>
-  <a href="https://fossbilling.org/"><img src="https://fossbilling.org/logo.png" alt="fossbilling" width="125"></a>
-  <br>
-  FOSSBilling
+  <a href="https://fossbilling.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://fossbilling.org/img/wordmark-white.png">
+      <img alt="FOSSBilling logo" src="https://fossbilling.org/img/wordmark-black.png" height="100">
+    </picture>
+  </a>
   <br>
 </h1>
 
