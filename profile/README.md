@@ -27,3 +27,5 @@ If you run a web hosting business and are looking for an open-source alternative
 FOSSBilling is designed to be extensible and to integrate easily with your favourite server management software and payment gateways.
 
 📥 This is self-hosted software that is free for anyone to install — All you need is a web server, running PHP and a MySQL database.
+
+All repositories created under the FOSSBilling organisation are subject to the Apache 2.0 license, except where explicitly stated otherwise in the repository.
