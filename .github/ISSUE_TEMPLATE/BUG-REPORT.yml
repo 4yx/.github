@@ -49,6 +49,21 @@ body:
     description: If applicable, add screenshots to help explain your problem.
     placeholder: Use the "Attach an image or video" button or link your images manually using the Markdown syntax, if you're familiar with it.
 
+- type: input
+  id: version
+  attributes:
+    label: FOSSBilling version
+    description: Please fill out the version of FOSSBilling you encountered this in.
+    placeholder: x.x.x (the latest stable release) / preview (the latest preview)
+  validations:
+    required: true
+
+- type: input
+  id: module
+  attributes:
+    label: Module version
+    description: If the bug is related to a module, fill out the version of the module you encountered this in.
+
 - type: dropdown
   id: device
   attributes:
@@ -58,8 +73,6 @@ body:
     options:
       - Desktop
       - Smartphone
-  validations:
-    required: true
  
 - type: textarea
   id: info
@@ -71,17 +84,6 @@ body:
       - OS: [e.g. Fedora 37]
       - Browser [e.g. chrome, safari]
       - Version [e.g. 22]
-  validations:
-    required: true
-
-- type: input
-  id: version
-  attributes:
-    label: FOSSBilling version
-    description: Please fill out the version of FOSSBilling you encountered this in.
-    placeholder: x.x.x (the latest stable release) / preview (the latest preview)
-  validations:
-    required: true
 
 - type: textarea
   id: additional
